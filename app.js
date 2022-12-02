@@ -4,13 +4,13 @@ const transporter=nodemailer.createTransport( {
     service:"hotmail",
     auth:{
         user:"nodeproject123@outlook.com",
-        pass:"nodeMailer@123"
+        pass://"your password"
     }
 });
 
 const options={
     from:"nodeproject123@outlook.com",
-    to:"ishaksk199@gmail.com",
+    to:"ishaksk@gmail.com",
     subject:"sending email with nodejs",
     text:"its very simple"
 };
